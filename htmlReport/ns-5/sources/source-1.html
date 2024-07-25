@@ -1,0 +1,249 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
+  <title>Coverage Report > JwtRequestFilter</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.taskservice.filter</a>
+</div>
+
+<h1>Coverage Summary for Class: JwtRequestFilter (org.example.taskservice.filter)</h1>
+
+<table class="coverageStats">
+
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">JwtRequestFilter</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (8/10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    83,3%
+  </span>
+  <span class="absValue">
+    (20/24)
+  </span>
+</td>
+</tr>
+  <tr>
+    <td class="name">JwtRequestFilter$ValidateTokenResponse</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+  </tr>
+<tr>
+  <td class="name"><strong>Total</strong></td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (6/6)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    80%
+  </span>
+  <span class="absValue">
+    (8/10)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    85,2%
+  </span>
+  <span class="absValue">
+    (23/27)
+  </span>
+</td>
+</tr>
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.taskservice.filter;
+&nbsp;import jakarta.servlet.FilterChain;
+&nbsp;import jakarta.servlet.ServletException;
+&nbsp;import jakarta.servlet.http.HttpServletRequest;
+&nbsp;import jakarta.servlet.http.HttpServletResponse;
+&nbsp;import org.springframework.beans.factory.annotation.Value;
+&nbsp;import org.springframework.http.HttpEntity;
+&nbsp;import org.springframework.http.HttpHeaders;
+&nbsp;import org.springframework.http.HttpMethod;
+&nbsp;import org.springframework.http.ResponseEntity;
+&nbsp;import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+&nbsp;import org.springframework.security.core.context.SecurityContextHolder;
+&nbsp;import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+&nbsp;import org.springframework.stereotype.Component;
+&nbsp;import org.springframework.web.client.RestTemplate;
+&nbsp;import org.springframework.web.filter.OncePerRequestFilter;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.util.Collections;
+&nbsp;
+&nbsp;@Component
+&nbsp;public class JwtRequestFilter extends OncePerRequestFilter {
+&nbsp;
+&nbsp;    @Value(&quot;${auth.service.url}&quot;)
+&nbsp;    String authServiceUrl;
+&nbsp;
+&nbsp;    private final RestTemplate restTemplate;
+&nbsp;
+<b class="fc">&nbsp;    public JwtRequestFilter(RestTemplate restTemplate) {</b>
+<b class="fc">&nbsp;        this.restTemplate = restTemplate;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
+&nbsp;            throws ServletException, IOException {
+&nbsp;
+<b class="fc">&nbsp;        final String authorizationHeader = request.getHeader(&quot;Authorization&quot;);</b>
+&nbsp;
+<b class="fc">&nbsp;        if (authorizationHeader == null || !authorizationHeader.startsWith(&quot;Bearer &quot;)) {</b>
+<b class="fc">&nbsp;            filterChain.doFilter(request, response);</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+<b class="fc">&nbsp;        String token = authorizationHeader.substring(7);</b>
+&nbsp;
+&nbsp;        try {
+<b class="fc">&nbsp;            if (validateToken(token)) {</b>
+<b class="fc">&nbsp;                UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(</b>
+<b class="fc">&nbsp;                        null, null, Collections.emptyList());</b>
+<b class="fc">&nbsp;                authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));</b>
+<b class="fc">&nbsp;                SecurityContextHolder.getContext().setAuthentication(authentication);</b>
+&nbsp;            } else {
+&nbsp;                // Token non valido, imposta una risposta di non autorizzato
+<b class="fc">&nbsp;                response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);</b>
+&nbsp;                return;  // Importante: non procedere con la catena dei filtri
+&nbsp;            }
+<b class="nc">&nbsp;        } catch (Exception e) {</b>
+<b class="nc">&nbsp;            logger.error(&quot;Cannot set user authentication: {}&quot;, e);</b>
+<b class="nc">&nbsp;            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);</b>
+&nbsp;            return;  // Importante: non procedere con la catena dei filtri
+&nbsp;        }
+&nbsp;
+<b class="fc">&nbsp;        filterChain.doFilter(request, response);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;
+&nbsp;    boolean validateToken(String token) {
+<b class="fc">&nbsp;        HttpHeaders headers = new HttpHeaders();</b>
+<b class="fc">&nbsp;        headers.set(&quot;Content-Type&quot;, &quot;application/json&quot;);</b>
+&nbsp;
+<b class="fc">&nbsp;        String requestBody = String.format(&quot;{\&quot;token\&quot;: \&quot;%s\&quot;}&quot;, token);</b>
+<b class="fc">&nbsp;        HttpEntity&lt;String&gt; entity = new HttpEntity&lt;&gt;(requestBody, headers);</b>
+&nbsp;
+<b class="fc">&nbsp;        ResponseEntity&lt;ValidateTokenResponse&gt; response = restTemplate.exchange(</b>
+&nbsp;                authServiceUrl + &quot;/validate&quot;,
+&nbsp;                HttpMethod.POST,
+&nbsp;                entity,
+&nbsp;                ValidateTokenResponse.class
+&nbsp;        );
+&nbsp;
+<b class="pc">&nbsp;        if (response.getStatusCode().is2xxSuccessful() &amp;&amp; response.getBody() != null) {</b>
+<b class="fc">&nbsp;            return response.getBody().isValid();</b>
+&nbsp;        }
+&nbsp;
+<b class="nc">&nbsp;        return false;</b>
+&nbsp;    }
+&nbsp;
+<b class="fc">&nbsp;    static class ValidateTokenResponse {</b>
+&nbsp;        private boolean valid;
+&nbsp;
+&nbsp;        public boolean isValid() {
+<b class="fc">&nbsp;            return valid;</b>
+&nbsp;        }
+&nbsp;
+&nbsp;        public void setValid(boolean valid) {
+<b class="fc">&nbsp;            this.valid = valid;</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-07-18 17:15</div>
+</div>
+</body>
+</html>

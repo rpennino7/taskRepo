@@ -1,0 +1,211 @@
+openapi: 3.0.1
+info:
+  title: Task API
+  description: API per la gestione delle Task
+  version: 1.0.0
+servers:
+  - url: http://localhost:8080
+    description: Server locale
+
+paths:
+  /tasks:
+    get:
+      summary: Recupera tutte le task
+      responses:
+        '200':
+          description: Lista di task
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Task'
+    post:
+      summary: Crea una nuova task
+      requestBody:
+        description: Task da creare
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Task'
+      responses:
+        '201':
+          description: Task creata con successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+
+  /tasks/{id}:
+    get:
+      summary: Recupera una task tramite ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Task trovata
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        '404':
+          description: Task non trovata
+
+    put:
+      summary: Aggiorna una task esistente
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: Task da aggiornare
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Task'
+      responses:
+        '200':
+          description: Task aggiornata con successo
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        '404':
+          description: Task non trovata
+
+    delete:
+      summary: Elimina una task tramite ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: Task eliminata con successo
+        '404':
+          description: Task non trovata
+
+  /tasks/by-project/{projectId}:
+    get:
+      summary: Recupera tutte le task per projectId
+      parameters:
+        - name: projectId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Lista di task trovate
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Task'
+        '404':
+          description: Nessuna task trovata per il projectId specificato
+
+  /tasks/by-employee/{employeeId}:
+    get:
+      summary: Recupera la task per employeeId
+      parameters:
+        - name: employeeId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Task trovata
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        '404':
+          description: Nessuna task trovata per l'employeeId specificato
+
+  /tasks/{id}/employee:
+    put:
+      summary: Assegna un employee a una task
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: Employee da assegnare
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                employeeId:
+                  type: string
+                  format: uuid
+              required:
+                - employeeId
+      responses:
+        '200':
+          description: Employee assegnato con successo
+        '404':
+          description: Task non trovata
+
+    delete:
+      summary: Rimuove un employee da una task
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '204':
+          description: Employee rimosso con successo
+        '404':
+          description: Task o Employee non trovata
+
+components:
+  schemas:
+    Task:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        description:
+          type: string
+        status:
+          type: string
+        projectId:
+          type: string
+          format: uuid
+        employeeId:
+          type: string
+          format: uuid
+      required:
+        - name
+        - description
+        - status
+        - projectId

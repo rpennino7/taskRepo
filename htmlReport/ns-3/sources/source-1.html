@@ -1,0 +1,244 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=windows-1252"> 
+  <title>Coverage Report > TaskController</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">org.example.taskservice.controller</a>
+</div>
+
+<h1>Coverage Summary for Class: TaskController (org.example.taskservice.controller)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">TaskController</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (11/11)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    90,3%
+  </span>
+  <span class="absValue">
+    (56/62)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package org.example.taskservice.controller;
+&nbsp;
+&nbsp;import org.example.taskservice.exception.TaskForEmployeeNotFoundException;
+&nbsp;import org.example.taskservice.exception.TaskForProjectNotFoundException;
+&nbsp;import org.example.taskservice.exception.TaskNotFoundException;
+&nbsp;import org.example.taskservice.model.Task;
+&nbsp;import org.example.taskservice.service.TaskService;
+&nbsp;import org.slf4j.Logger;
+&nbsp;import org.slf4j.LoggerFactory;
+&nbsp;import org.springframework.beans.factory.annotation.Autowired;
+&nbsp;import org.springframework.http.HttpStatus;
+&nbsp;import org.springframework.http.ResponseEntity;
+&nbsp;import org.springframework.web.bind.annotation.*;
+&nbsp;import java.util.List;
+&nbsp;import java.util.Map;
+&nbsp;import java.util.UUID;
+&nbsp;
+&nbsp;@RestController
+&nbsp;@RequestMapping(&quot;/api/tasks&quot;)
+<b class="fc">&nbsp;public class TaskController {</b>
+&nbsp;
+&nbsp;    @Autowired
+&nbsp;    private TaskService taskService;
+&nbsp;
+<b class="fc">&nbsp;    private static final Logger logger = LoggerFactory.getLogger(TaskController.class);</b>
+&nbsp;
+&nbsp;    @GetMapping
+&nbsp;    public ResponseEntity&lt;List&lt;Task&gt;&gt; getAllTasks() {
+<b class="fc">&nbsp;        logger.info(&quot;Request to get all tasks&quot;);</b>
+<b class="fc">&nbsp;        return ResponseEntity.ok(taskService.getAllTasks());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @GetMapping(&quot;/{id}&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; getTaskById(@PathVariable UUID id) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to get a tasks with id {}&quot;, id);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            Task task = taskService.getTaskById(id);</b>
+<b class="fc">&nbsp;            return ResponseEntity.ok(task);</b>
+<b class="fc">&nbsp;        }catch (IllegalArgumentException e) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+<b class="fc">&nbsp;        } catch (TaskNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @PostMapping
+&nbsp;    public ResponseEntity&lt;Task&gt; createTask(@RequestBody Task task) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to create a new task&quot;);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            Task createdTask = taskService.createTask(task);</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.CREATED).body(createdTask);</b>
+&nbsp;        }
+<b class="fc">&nbsp;        catch (IllegalArgumentException e) {</b>
+<b class="fc">&nbsp;            logger.error(&quot;Invalid task data: {}&quot;, e.getMessage());</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(null);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @PutMapping(&quot;/{id}&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; updateTask(@PathVariable UUID id, @RequestBody Task taskDetails) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to update the task with id {}&quot;, id);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            Task updatedTask = taskService.updateTask(id, taskDetails);</b>
+<b class="fc">&nbsp;            return ResponseEntity.ok(updatedTask);</b>
+<b class="fc">&nbsp;        } catch (IllegalArgumentException e) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+<b class="fc">&nbsp;        } catch (TaskNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+<b class="nc">&nbsp;        }catch (Exception e) {</b>
+<b class="nc">&nbsp;            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(&quot;An error occurred while updating the task&quot;);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @DeleteMapping(&quot;/{id}&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; deleteTask(@PathVariable UUID id) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to delete the task with id {}&quot;, id);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            taskService.deleteTask(id);</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();</b>
+<b class="fc">&nbsp;        } catch (IllegalArgumentException e) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+<b class="fc">&nbsp;        }catch (TaskNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @GetMapping(&quot;/by-project/{projectId}&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; getTasksByProjectId(@PathVariable UUID projectId) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to get task by project with id {}&quot;, projectId);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            List&lt;Task&gt; tasks = taskService.getTasksByProjectId(projectId);</b>
+<b class="fc">&nbsp;            return ResponseEntity.ok(tasks);</b>
+<b class="fc">&nbsp;        }catch (IllegalArgumentException e) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+<b class="fc">&nbsp;        } catch (TaskForProjectNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @GetMapping(&quot;/by-employee/{employeeId}&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; getTaskByEmployeeId(@PathVariable UUID employeeId) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to get task by employee with id {}&quot;, employeeId);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            Task task = taskService.getTaskByEmployeeId(employeeId);</b>
+<b class="fc">&nbsp;            return ResponseEntity.ok(task);</b>
+<b class="fc">&nbsp;        } catch (TaskForEmployeeNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+<b class="nc">&nbsp;        } catch (IllegalArgumentException e) {</b>
+<b class="nc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @PutMapping(&quot;/{id}/employee&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; assignEmployeeToTask(@PathVariable UUID id,  @RequestBody Map&lt;String, String&gt; request) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to assign employee to task with id {}&quot;, id);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            UUID employeeId = UUID.fromString(request.get(&quot;employeeId&quot;));</b>
+<b class="fc">&nbsp;            Task updatedTask = taskService.assignEmployeeToTask(id, employeeId);</b>
+<b class="fc">&nbsp;            return ResponseEntity.ok(updatedTask);</b>
+<b class="nc">&nbsp;        } catch (IllegalArgumentException e) {</b>
+<b class="nc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+<b class="fc">&nbsp;        } catch (TaskNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    @DeleteMapping(&quot;/{id}/employee&quot;)
+&nbsp;    public ResponseEntity&lt;?&gt; removeEmployeeFromTask(@PathVariable UUID id) {
+<b class="fc">&nbsp;        logger.info(&quot;Request to remove employee from task with id {}&quot;, id);</b>
+&nbsp;        try {
+<b class="fc">&nbsp;            taskService.removeEmployeeFromTask(id);</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NO_CONTENT).build();</b>
+<b class="fc">&nbsp;        }catch (IllegalArgumentException e) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.badRequest().body(e.getMessage());</b>
+<b class="fc">&nbsp;        } catch (TaskNotFoundException ex) {</b>
+<b class="fc">&nbsp;            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ex.getMessage());</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-07-18 17:15</div>
+</div>
+</body>
+</html>

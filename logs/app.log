@@ -1,0 +1,712 @@
+2024-07-18 12:17:08 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 12:17:08 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 3172 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:17:08 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:17:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:17:11 - Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2024-07-18 12:17:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:17:12 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:17:12 - HHH000026: Second-level cache disabled
+2024-07-18 12:17:13 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:17:13 - HikariPool-1 - Starting...
+2024-07-18 12:17:13 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ca278bc
+2024-07-18 12:17:13 - HikariPool-1 - Start completed.
+2024-07-18 12:17:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:17:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:17:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:17:18 - Started TaskServiceApplicationTests in 10.929 seconds (process running for 13.46)
+2024-07-18 12:17:19 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:17:19 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:17:19 - HikariPool-1 - Shutdown completed.
+2024-07-18 12:19:00 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 12:19:00 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 13220 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:19:00 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:19:05 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:19:05 - Finished Spring Data repository scanning in 140 ms. Found 1 JPA repository interface.
+2024-07-18 12:19:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:19:07 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:19:07 - HHH000026: Second-level cache disabled
+2024-07-18 12:19:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:19:08 - HikariPool-1 - Starting...
+2024-07-18 12:19:08 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2ecbe75a
+2024-07-18 12:19:08 - HikariPool-1 - Start completed.
+2024-07-18 12:19:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:19:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:19:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:19:15 - Started TaskServiceApplicationTests in 16.229 seconds (process running for 28.531)
+2024-07-18 12:19:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:19:15 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:19:15 - HikariPool-1 - Shutdown completed.
+2024-07-18 12:24:48 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 12:24:49 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 10340 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:24:49 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:24:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:24:52 - Finished Spring Data repository scanning in 140 ms. Found 1 JPA repository interface.
+2024-07-18 12:24:53 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:24:53 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:24:54 - HHH000026: Second-level cache disabled
+2024-07-18 12:24:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:24:54 - HikariPool-1 - Starting...
+2024-07-18 12:24:55 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@473f0042
+2024-07-18 12:24:55 - HikariPool-1 - Start completed.
+2024-07-18 12:24:58 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:24:58 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:24:59 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:25:01 - Started TaskServiceApplicationTests in 14.291 seconds (process running for 23.114)
+2024-07-18 12:25:01 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:25:01 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:25:02 - HikariPool-1 - Shutdown completed.
+2024-07-18 12:38:45 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 12:38:45 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 6604 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:38:45 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:38:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:38:49 - Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interface.
+2024-07-18 12:38:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:38:50 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:38:50 - HHH000026: Second-level cache disabled
+2024-07-18 12:38:50 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:38:51 - HikariPool-1 - Starting...
+2024-07-18 12:38:51 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ee186f3
+2024-07-18 12:38:51 - HikariPool-1 - Start completed.
+2024-07-18 12:38:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:38:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:38:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:38:57 - Started TaskServiceApplicationTests in 13.568 seconds (process running for 21.045)
+2024-07-18 12:38:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:38:58 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:38:58 - HikariPool-1 - Shutdown completed.
+2024-07-18 12:39:13 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 12516 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:39:13 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:39:13 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-18 12:39:13 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-18 12:39:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:39:16 - Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interface.
+2024-07-18 12:39:18 - Tomcat initialized with port 8080 (http)
+2024-07-18 12:39:18 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-18 12:39:18 - Starting service [Tomcat]
+2024-07-18 12:39:18 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 12:39:18 - Initializing Spring embedded WebApplicationContext
+2024-07-18 12:39:18 - Root WebApplicationContext: initialization completed in 5129 ms
+2024-07-18 12:39:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:39:19 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:39:19 - HHH000026: Second-level cache disabled
+2024-07-18 12:39:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:39:21 - HikariPool-1 - Starting...
+2024-07-18 12:39:23 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f12a62c
+2024-07-18 12:39:23 - HikariPool-1 - Start completed.
+2024-07-18 12:39:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:39:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:39:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:39:30 - LiveReload server is running on port 35729
+2024-07-18 12:39:30 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-18 12:39:30 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-18 12:39:30 - Started TaskServiceApplication in 17.987 seconds (process running for 19.589)
+2024-07-18 12:39:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-18 12:39:43 - Initializing Servlet 'dispatcherServlet'
+2024-07-18 12:39:43 - Completed initialization in 2 ms
+2024-07-18 12:39:49 - Cannot set user authentication: {}
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "Tunnel quality-thankfully-halibut.ngrok-free.app not found<EOL><EOL><EOL><EOL>ERR_NGROK_3200<EOL><EOL>"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.example.taskservice.filter.JwtRequestFilter.validateToken(JwtRequestFilter.java:74)
+	at org.example.taskservice.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-18 12:40:19 - Cannot set user authentication: {}
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "Tunnel quality-thankfully-halibut.ngrok-free.app not found<EOL><EOL><EOL><EOL>ERR_NGROK_3200<EOL><EOL>"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.example.taskservice.filter.JwtRequestFilter.validateToken(JwtRequestFilter.java:74)
+	at org.example.taskservice.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-18 12:40:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:40:38 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:40:39 - HikariPool-1 - Shutdown completed.
+2024-07-18 12:42:24 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 11176 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:42:24 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:42:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-18 12:42:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-18 12:42:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:42:27 - Finished Spring Data repository scanning in 197 ms. Found 1 JPA repository interface.
+2024-07-18 12:42:28 - Tomcat initialized with port 8080 (http)
+2024-07-18 12:42:28 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-18 12:42:28 - Starting service [Tomcat]
+2024-07-18 12:42:28 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-18 12:42:28 - Initializing Spring embedded WebApplicationContext
+2024-07-18 12:42:28 - Root WebApplicationContext: initialization completed in 3133 ms
+2024-07-18 12:42:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:42:28 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:42:28 - HHH000026: Second-level cache disabled
+2024-07-18 12:42:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:42:29 - HikariPool-1 - Starting...
+2024-07-18 12:42:29 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@745e8ad9
+2024-07-18 12:42:29 - HikariPool-1 - Start completed.
+2024-07-18 12:42:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:42:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:42:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:42:33 - LiveReload server is running on port 35729
+2024-07-18 12:42:33 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-18 12:42:33 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-18 12:42:33 - Started TaskServiceApplication in 9.964 seconds (process running for 11.14)
+2024-07-18 12:42:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-18 12:42:40 - Initializing Servlet 'dispatcherServlet'
+2024-07-18 12:42:40 - Completed initialization in 2 ms
+2024-07-18 12:42:45 - Cannot set user authentication: {}
+org.springframework.web.client.HttpClientErrorException$NotFound: 404 Not Found: "Tunnel quality-thankfully-halibut.ngrok-free.app not found<EOL><EOL><EOL><EOL>ERR_NGROK_3200<EOL><EOL>"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:183)
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:137)
+	at org.springframework.web.client.ResponseErrorHandler.handleError(ResponseErrorHandler.java:63)
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:942)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:891)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.example.taskservice.filter.JwtRequestFilter.validateToken(JwtRequestFilter.java:74)
+	at org.example.taskservice.filter.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:47)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195)
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113)
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-07-18 12:53:15 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 12:53:15 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 8924 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 12:53:15 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 12:53:19 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 12:53:19 - Finished Spring Data repository scanning in 151 ms. Found 1 JPA repository interface.
+2024-07-18 12:53:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 12:53:21 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 12:53:21 - HHH000026: Second-level cache disabled
+2024-07-18 12:53:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 12:53:22 - HikariPool-1 - Starting...
+2024-07-18 12:53:23 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3de24082
+2024-07-18 12:53:23 - HikariPool-1 - Start completed.
+2024-07-18 12:53:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 12:53:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:53:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 12:53:30 - Started TaskServiceApplicationTests in 15.677 seconds (process running for 25.384)
+2024-07-18 12:53:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:53:30 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:53:30 - HikariPool-1 - Shutdown completed.
+2024-07-18 12:56:18 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 12:56:18 - HikariPool-1 - Shutdown initiated...
+2024-07-18 12:56:18 - HikariPool-1 - Shutdown completed.
+2024-07-18 14:39:49 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 14:39:49 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 7904 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 14:39:49 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 14:39:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 14:39:53 - Finished Spring Data repository scanning in 163 ms. Found 1 JPA repository interface.
+2024-07-18 14:39:54 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 14:39:54 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 14:39:55 - HHH000026: Second-level cache disabled
+2024-07-18 14:39:55 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 14:39:55 - HikariPool-1 - Starting...
+2024-07-18 14:39:56 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1053f341
+2024-07-18 14:39:56 - HikariPool-1 - Start completed.
+2024-07-18 14:39:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 14:39:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 14:40:01 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 14:40:03 - Started TaskServiceApplicationTests in 15.362 seconds (process running for 26.441)
+2024-07-18 14:40:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 14:40:03 - HikariPool-1 - Shutdown initiated...
+2024-07-18 14:40:04 - HikariPool-1 - Shutdown completed.
+2024-07-18 14:47:05 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 14:47:05 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 14316 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 14:47:05 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 14:47:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 14:47:11 - Finished Spring Data repository scanning in 159 ms. Found 1 JPA repository interface.
+2024-07-18 14:47:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 14:47:13 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 14:47:13 - HHH000026: Second-level cache disabled
+2024-07-18 14:47:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 14:47:14 - HikariPool-1 - Starting...
+2024-07-18 14:47:15 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42828d21
+2024-07-18 14:47:15 - HikariPool-1 - Start completed.
+2024-07-18 14:47:18 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 14:47:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 14:47:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 14:47:22 - Started TaskServiceApplicationTests in 19.858 seconds (process running for 33.167)
+2024-07-18 14:47:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 14:47:23 - HikariPool-1 - Shutdown initiated...
+2024-07-18 14:47:23 - HikariPool-1 - Shutdown completed.
+2024-07-18 14:54:25 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 14:54:25 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 5044 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 14:54:25 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 14:54:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 14:54:30 - Finished Spring Data repository scanning in 181 ms. Found 1 JPA repository interface.
+2024-07-18 14:54:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 14:54:32 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 14:54:32 - HHH000026: Second-level cache disabled
+2024-07-18 14:54:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 14:54:33 - HikariPool-1 - Starting...
+2024-07-18 14:54:34 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ce25432
+2024-07-18 14:54:34 - HikariPool-1 - Start completed.
+2024-07-18 14:54:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 14:54:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 14:54:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 14:54:43 - Started TaskServiceApplicationTests in 20.151 seconds (process running for 37.962)
+2024-07-18 14:54:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 14:54:43 - HikariPool-1 - Shutdown initiated...
+2024-07-18 14:54:43 - HikariPool-1 - Shutdown completed.
+2024-07-18 14:59:53 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 14:59:53 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 8044 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 14:59:53 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 14:59:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 14:59:56 - Finished Spring Data repository scanning in 168 ms. Found 1 JPA repository interface.
+2024-07-18 14:59:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 14:59:59 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 14:59:59 - HHH000026: Second-level cache disabled
+2024-07-18 14:59:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 14:59:59 - HikariPool-1 - Starting...
+2024-07-18 15:00:00 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@62a0699d
+2024-07-18 15:00:00 - HikariPool-1 - Start completed.
+2024-07-18 15:00:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:00:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:00:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:00:08 - Started TaskServiceApplicationTests in 16.465 seconds (process running for 31.545)
+2024-07-18 15:00:08 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:00:08 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:00:08 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:07:33 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:07:33 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 15228 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:07:33 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:07:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:07:40 - Finished Spring Data repository scanning in 295 ms. Found 1 JPA repository interface.
+2024-07-18 15:07:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:07:43 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:07:43 - HHH000026: Second-level cache disabled
+2024-07-18 15:07:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:07:44 - HikariPool-1 - Starting...
+2024-07-18 15:07:45 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29a86ae5
+2024-07-18 15:07:45 - HikariPool-1 - Start completed.
+2024-07-18 15:07:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:07:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:07:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:07:55 - Started TaskServiceApplicationTests in 24.726 seconds (process running for 43.995)
+2024-07-18 15:07:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:07:55 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:07:56 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:20:57 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:20:57 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 13484 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:20:57 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:21:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:21:00 - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2024-07-18 15:21:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:21:02 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:21:02 - HHH000026: Second-level cache disabled
+2024-07-18 15:21:02 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:21:03 - HikariPool-1 - Starting...
+2024-07-18 15:21:03 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@556f2c90
+2024-07-18 15:21:03 - HikariPool-1 - Start completed.
+2024-07-18 15:21:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:21:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:21:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:21:10 - Started TaskServiceApplicationTests in 14.1 seconds (process running for 24.647)
+2024-07-18 15:21:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:21:10 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:21:10 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:28:09 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:28:09 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 14696 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:28:09 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:28:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:28:13 - Finished Spring Data repository scanning in 153 ms. Found 1 JPA repository interface.
+2024-07-18 15:28:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:28:15 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:28:15 - HHH000026: Second-level cache disabled
+2024-07-18 15:28:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:28:15 - HikariPool-1 - Starting...
+2024-07-18 15:28:16 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1d41007d
+2024-07-18 15:28:16 - HikariPool-1 - Start completed.
+2024-07-18 15:28:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:28:19 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:28:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:28:22 - Started TaskServiceApplicationTests in 14.535 seconds (process running for 24.457)
+2024-07-18 15:28:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:28:23 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:28:23 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:31:13 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:31:13 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 14184 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:31:13 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:31:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:31:16 - Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interface.
+2024-07-18 15:31:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:31:18 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:31:18 - HHH000026: Second-level cache disabled
+2024-07-18 15:31:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:31:19 - HikariPool-1 - Starting...
+2024-07-18 15:31:19 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e7ae529
+2024-07-18 15:31:19 - HikariPool-1 - Start completed.
+2024-07-18 15:31:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:31:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:31:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:31:28 - Started TaskServiceApplicationTests in 17.115 seconds (process running for 28.059)
+2024-07-18 15:31:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:31:29 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:31:29 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:42:05 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:42:06 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 3308 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:42:06 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:42:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:42:09 - Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interface.
+2024-07-18 15:42:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:42:11 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:42:11 - HHH000026: Second-level cache disabled
+2024-07-18 15:42:11 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:42:11 - HikariPool-1 - Starting...
+2024-07-18 15:42:12 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26538899
+2024-07-18 15:42:12 - HikariPool-1 - Start completed.
+2024-07-18 15:42:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:42:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:42:18 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:42:20 - Started TaskServiceApplicationTests in 15.764 seconds (process running for 25.86)
+2024-07-18 15:42:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:42:20 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:42:20 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:49:10 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:49:10 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 12424 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:49:10 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:49:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:49:14 - Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interface.
+2024-07-18 15:49:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:49:16 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:49:17 - HHH000026: Second-level cache disabled
+2024-07-18 15:49:17 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:49:17 - HikariPool-1 - Starting...
+2024-07-18 15:49:18 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@459ab0a3
+2024-07-18 15:49:18 - HikariPool-1 - Start completed.
+2024-07-18 15:49:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:49:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:49:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:49:25 - Started TaskServiceApplicationTests in 16.81 seconds (process running for 26.61)
+2024-07-18 15:49:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:49:25 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:49:26 - HikariPool-1 - Shutdown completed.
+2024-07-18 15:52:11 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-18 15:52:11 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 7856 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-18 15:52:11 - No active profile set, falling back to 1 default profile: "default"
+2024-07-18 15:52:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-18 15:52:15 - Finished Spring Data repository scanning in 133 ms. Found 1 JPA repository interface.
+2024-07-18 15:52:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-18 15:52:18 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-18 15:52:18 - HHH000026: Second-level cache disabled
+2024-07-18 15:52:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-18 15:52:19 - HikariPool-1 - Starting...
+2024-07-18 15:52:20 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@12995c62
+2024-07-18 15:52:20 - HikariPool-1 - Start completed.
+2024-07-18 15:52:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-18 15:52:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:52:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-18 15:52:26 - Started TaskServiceApplicationTests in 17.26 seconds (process running for 28.387)
+2024-07-18 15:52:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-18 15:52:26 - HikariPool-1 - Shutdown initiated...
+2024-07-18 15:52:26 - HikariPool-1 - Shutdown completed.

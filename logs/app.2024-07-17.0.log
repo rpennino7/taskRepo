@@ -1,0 +1,544 @@
+2024-07-17 10:51:13 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 10116 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 10:51:13 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 10:51:13 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-17 10:51:13 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-17 10:51:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 10:51:15 - Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-07-17 10:51:15 - Tomcat initialized with port 8080 (http)
+2024-07-17 10:51:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 10:51:15 - Starting service [Tomcat]
+2024-07-17 10:51:15 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 10:51:16 - Initializing Spring embedded WebApplicationContext
+2024-07-17 10:51:16 - Root WebApplicationContext: initialization completed in 2798 ms
+2024-07-17 10:51:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 10:51:16 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 10:51:16 - HHH000026: Second-level cache disabled
+2024-07-17 10:51:17 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 10:51:17 - HikariPool-1 - Starting...
+2024-07-17 10:51:18 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@281ef51
+2024-07-17 10:51:18 - HikariPool-1 - Start completed.
+2024-07-17 10:51:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 10:51:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 10:51:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 10:51:22 - LiveReload server is running on port 35729
+2024-07-17 10:51:22 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-17 10:51:22 - Started TaskServiceApplication in 10.321 seconds (process running for 12.03)
+2024-07-17 10:51:22 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 10:51:22 - HikariPool-1 - Shutdown initiated...
+2024-07-17 10:51:22 - HikariPool-1 - Shutdown completed.
+2024-07-17 12:34:14 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 12:34:14 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 7896 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 12:34:14 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:34:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 12:34:16 - Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-07-17 12:34:17 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 12:34:17 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 12:34:17 - HHH000026: Second-level cache disabled
+2024-07-17 12:34:18 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 12:34:18 - HikariPool-1 - Starting...
+2024-07-17 12:34:19 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42b43a6
+2024-07-17 12:34:19 - HikariPool-1 - Start completed.
+2024-07-17 12:34:21 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 12:34:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:34:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 12:34:24 - Started TaskServiceApplicationTests in 10.513 seconds (process running for 13.059)
+2024-07-17 12:34:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:34:25 - HikariPool-1 - Shutdown initiated...
+2024-07-17 12:34:25 - HikariPool-1 - Shutdown completed.
+2024-07-17 12:41:11 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 12:41:11 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 2740 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 12:41:11 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:41:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 12:41:13 - Finished Spring Data repository scanning in 104 ms. Found 1 JPA repository interface.
+2024-07-17 12:41:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 12:41:14 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 12:41:14 - HHH000026: Second-level cache disabled
+2024-07-17 12:41:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 12:41:15 - HikariPool-1 - Starting...
+2024-07-17 12:41:16 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@42b43a6
+2024-07-17 12:41:16 - HikariPool-1 - Start completed.
+2024-07-17 12:41:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 12:41:18 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:41:19 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 12:41:20 - Started TaskServiceApplicationTests in 10.699 seconds (process running for 13.342)
+2024-07-17 12:41:21 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:41:21 - HikariPool-1 - Shutdown initiated...
+2024-07-17 12:41:21 - HikariPool-1 - Shutdown completed.
+2024-07-17 12:43:23 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 12:43:23 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 2916 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 12:43:23 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:43:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 12:43:26 - Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2024-07-17 12:43:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 12:43:27 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 12:43:27 - HHH000026: Second-level cache disabled
+2024-07-17 12:43:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 12:43:28 - HikariPool-1 - Starting...
+2024-07-17 12:43:28 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b4829aa
+2024-07-17 12:43:28 - HikariPool-1 - Start completed.
+2024-07-17 12:43:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 12:43:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:43:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 12:43:32 - Started TaskServiceApplicationTests in 9.867 seconds (process running for 12.161)
+2024-07-17 12:43:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:43:33 - HikariPool-1 - Shutdown initiated...
+2024-07-17 12:43:33 - HikariPool-1 - Shutdown completed.
+2024-07-17 12:54:32 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 12:54:32 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 1740 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 12:54:32 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:54:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 12:54:35 - Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interface.
+2024-07-17 12:54:37 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 12:54:37 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 12:54:37 - HHH000026: Second-level cache disabled
+2024-07-17 12:54:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 12:54:38 - HikariPool-1 - Starting...
+2024-07-17 12:54:38 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2d0ea1e3
+2024-07-17 12:54:38 - HikariPool-1 - Start completed.
+2024-07-17 12:54:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 12:54:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:54:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 12:54:45 - Started TaskServiceApplicationTests in 14.047 seconds (process running for 22.295)
+2024-07-17 12:54:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 12:54:45 - HikariPool-1 - Shutdown initiated...
+2024-07-17 12:54:45 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:28:49 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 13712 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:28:49 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:28:49 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-17 14:28:49 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-17 14:28:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:28:51 - Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interface.
+2024-07-17 14:28:52 - Tomcat initialized with port 8080 (http)
+2024-07-17 14:28:52 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:28:52 - Starting service [Tomcat]
+2024-07-17 14:28:52 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 14:28:52 - Initializing Spring embedded WebApplicationContext
+2024-07-17 14:28:52 - Root WebApplicationContext: initialization completed in 2682 ms
+2024-07-17 14:28:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:28:52 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:28:53 - HHH000026: Second-level cache disabled
+2024-07-17 14:28:53 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:28:53 - HikariPool-1 - Starting...
+2024-07-17 14:28:54 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7de6d75c
+2024-07-17 14:28:54 - HikariPool-1 - Start completed.
+2024-07-17 14:28:56 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:28:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:28:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:28:58 - LiveReload server is running on port 35729
+2024-07-17 14:28:58 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:28:58 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-17 14:28:58 - Started TaskServiceApplication in 9.499 seconds (process running for 11.497)
+2024-07-17 14:33:36 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:33:36 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:33:36 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:33:41 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 9640 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:33:41 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:33:41 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-17 14:33:41 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-17 14:33:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:33:42 - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-07-17 14:33:43 - Tomcat initialized with port 8080 (http)
+2024-07-17 14:33:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:33:43 - Starting service [Tomcat]
+2024-07-17 14:33:43 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 14:33:43 - Initializing Spring embedded WebApplicationContext
+2024-07-17 14:33:43 - Root WebApplicationContext: initialization completed in 2285 ms
+2024-07-17 14:33:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:33:43 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:33:43 - HHH000026: Second-level cache disabled
+2024-07-17 14:33:44 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:33:44 - HikariPool-1 - Starting...
+2024-07-17 14:33:44 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@342aa3b1
+2024-07-17 14:33:44 - HikariPool-1 - Start completed.
+2024-07-17 14:33:45 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:33:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:33:46 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:33:47 - LiveReload server is running on port 35729
+2024-07-17 14:33:47 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:33:47 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-17 14:33:47 - Started TaskServiceApplication in 7.347 seconds (process running for 8.514)
+2024-07-17 14:47:56 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 14:47:56 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 7104 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:47:56 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:47:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:47:59 - Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interface.
+2024-07-17 14:48:01 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:48:01 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:48:01 - HHH000026: Second-level cache disabled
+2024-07-17 14:48:02 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:48:02 - HikariPool-1 - Starting...
+2024-07-17 14:48:03 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3bee38d5
+2024-07-17 14:48:03 - HikariPool-1 - Start completed.
+2024-07-17 14:48:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:48:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:48:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:48:10 - Started TaskServiceApplicationTests in 15.389 seconds (process running for 24.14)
+2024-07-17 14:48:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:48:10 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:48:10 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:50:31 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 14:50:31 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 11688 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:50:31 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:50:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:50:34 - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2024-07-17 14:50:36 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:50:36 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:50:36 - HHH000026: Second-level cache disabled
+2024-07-17 14:50:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:50:37 - HikariPool-1 - Starting...
+2024-07-17 14:50:38 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5baa6cc7
+2024-07-17 14:50:38 - HikariPool-1 - Start completed.
+2024-07-17 14:50:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:50:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:50:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:50:45 - Started TaskServiceApplicationTests in 15.064 seconds (process running for 23.642)
+2024-07-17 14:50:45 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:50:45 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:50:45 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:53:00 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 14:53:01 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 9656 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:53:01 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:53:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:53:04 - Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interface.
+2024-07-17 14:53:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:53:05 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:53:06 - HHH000026: Second-level cache disabled
+2024-07-17 14:53:06 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:53:06 - HikariPool-1 - Starting...
+2024-07-17 14:53:07 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5aa71906
+2024-07-17 14:53:07 - HikariPool-1 - Start completed.
+2024-07-17 14:53:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:53:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:53:11 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:53:13 - Started TaskServiceApplicationTests in 14.32 seconds (process running for 22.978)
+2024-07-17 14:53:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:53:13 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:53:14 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:55:58 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-17 14:55:58 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:55:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:55:58 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:56:00 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:56:00 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 9640 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:56:00 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:56:00 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:56:00 - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-07-17 14:56:01 - Tomcat initialized with port 8080 (http)
+2024-07-17 14:56:01 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:56:01 - Starting service [Tomcat]
+2024-07-17 14:56:01 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 14:56:01 - Initializing Spring embedded WebApplicationContext
+2024-07-17 14:56:01 - Root WebApplicationContext: initialization completed in 1545 ms
+2024-07-17 14:56:01 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:56:01 - HHH000026: Second-level cache disabled
+2024-07-17 14:56:01 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:56:01 - HikariPool-2 - Starting...
+2024-07-17 14:56:02 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1a9e72df
+2024-07-17 14:56:02 - HikariPool-2 - Start completed.
+2024-07-17 14:56:02 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:56:02 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:56:02 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'taskController': Unsatisfied dependency expressed through field 'taskService': No qualifying bean of type 'org.example.taskservice.service.TaskService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-07-17 14:56:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:56:02 - HikariPool-2 - Shutdown initiated...
+2024-07-17 14:56:02 - HikariPool-2 - Shutdown completed.
+2024-07-17 14:56:02 - Stopping service [Tomcat]
+2024-07-17 14:56:02 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-17 14:56:02 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field taskService in org.example.taskservice.controller.TaskController required a bean of type 'org.example.taskservice.service.TaskService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.example.taskservice.service.TaskService' in your configuration.
+
+2024-07-17 14:56:03 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 9640 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:56:03 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:56:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:56:04 - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2024-07-17 14:56:04 - Tomcat initialized with port 8080 (http)
+2024-07-17 14:56:04 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:56:04 - Starting service [Tomcat]
+2024-07-17 14:56:04 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 14:56:04 - Initializing Spring embedded WebApplicationContext
+2024-07-17 14:56:04 - Root WebApplicationContext: initialization completed in 808 ms
+2024-07-17 14:56:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:56:04 - HHH000026: Second-level cache disabled
+2024-07-17 14:56:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:56:04 - HikariPool-3 - Starting...
+2024-07-17 14:56:04 - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@2bde2db6
+2024-07-17 14:56:04 - HikariPool-3 - Start completed.
+2024-07-17 14:56:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:56:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:56:05 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:56:05 - LiveReload server is running on port 35729
+2024-07-17 14:56:05 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:56:05 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-17 14:56:05 - Started TaskServiceApplication in 2.095 seconds (process running for 1346.858)
+2024-07-17 14:56:05 - Condition evaluation unchanged
+2024-07-17 14:56:16 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 14:56:16 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 2392 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:56:16 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:56:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:56:22 - Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interface.
+2024-07-17 14:56:23 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:56:24 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:56:24 - HHH000026: Second-level cache disabled
+2024-07-17 14:56:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:56:24 - HikariPool-1 - Starting...
+2024-07-17 14:56:25 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d749826
+2024-07-17 14:56:25 - HikariPool-1 - Start completed.
+2024-07-17 14:56:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:56:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:56:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:56:32 - Started TaskServiceApplicationTests in 17.556 seconds (process running for 26.841)
+2024-07-17 14:56:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:56:32 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:56:32 - HikariPool-1 - Shutdown completed.
+2024-07-17 14:57:22 - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2024-07-17 14:57:22 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:57:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:57:23 - HikariPool-3 - Shutdown initiated...
+2024-07-17 14:57:23 - HikariPool-3 - Shutdown completed.
+2024-07-17 14:57:23 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 9640 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:57:23 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:57:23 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:57:23 - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-07-17 14:57:24 - Tomcat initialized with port 8080 (http)
+2024-07-17 14:57:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:57:24 - Starting service [Tomcat]
+2024-07-17 14:57:24 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 14:57:24 - Initializing Spring embedded WebApplicationContext
+2024-07-17 14:57:24 - Root WebApplicationContext: initialization completed in 633 ms
+2024-07-17 14:57:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:57:24 - HHH000026: Second-level cache disabled
+2024-07-17 14:57:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:57:24 - HikariPool-4 - Starting...
+2024-07-17 14:57:24 - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@1fd6d2b6
+2024-07-17 14:57:24 - HikariPool-4 - Start completed.
+2024-07-17 14:57:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:57:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:57:24 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskController' defined in file [C:\Users\r.pennino\Desktop\TaskService\target\classes\org\example\taskservice\controller\TaskController.class]: Post-processing of merged bean definition failed
+2024-07-17 14:57:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:57:24 - HikariPool-4 - Shutdown initiated...
+2024-07-17 14:57:24 - HikariPool-4 - Shutdown completed.
+2024-07-17 14:57:24 - Stopping service [Tomcat]
+2024-07-17 14:57:24 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-17 14:57:24 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'taskController' defined in file [C:\Users\r.pennino\Desktop\TaskService\target\classes\org\example\taskservice\controller\TaskController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:577)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at org.example.taskservice.TaskServiceApplication.main(TaskServiceApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.example.taskservice.controller.TaskController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a9e122]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:757)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:689)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.buildPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:436)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findPersistenceMetadata(PersistenceAnnotationBeanPostProcessor.java:417)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.findInjectionMetadata(PersistenceAnnotationBeanPostProcessor.java:376)
+	at org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(PersistenceAnnotationBeanPostProcessor.java:353)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1085)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:574)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/example/taskservice/service/TaskService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3329)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2403)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:752)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.example.taskservice.service.TaskService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:488)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2024-07-17 14:57:25 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 9640 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:57:25 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:57:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:57:26 - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+2024-07-17 14:57:27 - Tomcat initialized with port 8080 (http)
+2024-07-17 14:57:27 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:57:27 - Starting service [Tomcat]
+2024-07-17 14:57:27 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 14:57:27 - Initializing Spring embedded WebApplicationContext
+2024-07-17 14:57:27 - Root WebApplicationContext: initialization completed in 1435 ms
+2024-07-17 14:57:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:57:27 - HHH000026: Second-level cache disabled
+2024-07-17 14:57:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:57:27 - HikariPool-5 - Starting...
+2024-07-17 14:57:27 - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@30b4d3d9
+2024-07-17 14:57:27 - HikariPool-5 - Start completed.
+2024-07-17 14:57:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:57:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:57:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:57:28 - LiveReload server is running on port 35729
+2024-07-17 14:57:28 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-17 14:57:28 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-17 14:57:28 - Started TaskServiceApplication in 2.954 seconds (process running for 1429.752)
+2024-07-17 14:57:28 - Condition evaluation unchanged
+2024-07-17 14:57:36 - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/r.pennino/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/r.pennino/.m2/repository/org/json/json/20210307/json-20210307.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2024-07-17 14:57:36 - Starting TaskServiceApplicationTests using Java 18.0.2.1 with PID 13256 (started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 14:57:36 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 14:57:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 14:57:39 - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+2024-07-17 14:57:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 14:57:41 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 14:57:41 - HHH000026: Second-level cache disabled
+2024-07-17 14:57:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 14:57:42 - HikariPool-1 - Starting...
+2024-07-17 14:57:42 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4fb99865
+2024-07-17 14:57:42 - HikariPool-1 - Start completed.
+2024-07-17 14:57:45 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 14:57:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:57:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 14:57:50 - Started TaskServiceApplicationTests in 15.246 seconds (process running for 24.568)
+2024-07-17 14:57:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 14:57:50 - HikariPool-1 - Shutdown initiated...
+2024-07-17 14:57:50 - HikariPool-1 - Shutdown completed.
+2024-07-17 15:00:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 15:00:30 - HikariPool-5 - Shutdown initiated...
+2024-07-17 15:00:30 - HikariPool-5 - Shutdown completed.
+2024-07-17 15:00:37 - Starting TaskServiceApplication using Java 18.0.2.1 with PID 12532 (C:\Users\r.pennino\Desktop\TaskService\target\classes started by r.pennino in C:\Users\r.pennino\Desktop\TaskService)
+2024-07-17 15:00:37 - No active profile set, falling back to 1 default profile: "default"
+2024-07-17 15:00:37 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-17 15:00:37 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-17 15:00:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-17 15:00:39 - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-07-17 15:00:39 - Tomcat initialized with port 8080 (http)
+2024-07-17 15:00:39 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-17 15:00:39 - Starting service [Tomcat]
+2024-07-17 15:00:39 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-17 15:00:40 - Initializing Spring embedded WebApplicationContext
+2024-07-17 15:00:40 - Root WebApplicationContext: initialization completed in 2321 ms
+2024-07-17 15:00:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-17 15:00:40 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-17 15:00:40 - HHH000026: Second-level cache disabled
+2024-07-17 15:00:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-17 15:00:40 - HikariPool-1 - Starting...
+2024-07-17 15:00:41 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66d7203f
+2024-07-17 15:00:41 - HikariPool-1 - Start completed.
+2024-07-17 15:00:42 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-17 15:00:42 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-17 15:00:43 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-17 15:00:43 - LiveReload server is running on port 35729
+2024-07-17 15:00:44 - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-17 15:00:44 - Tomcat started on port 8080 (http) with context path '/'
+2024-07-17 15:00:44 - Started TaskServiceApplication in 7.333 seconds (process running for 8.506)
+2024-07-17 15:21:57 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 15:21:57 - Initializing Servlet 'dispatcherServlet'
+2024-07-17 15:21:57 - Completed initialization in 1 ms
+2024-07-17 15:37:09 - Request to get all tasks
+2024-07-17 15:53:38 - Request to get task by project with id 34567775-9870-4fb8-bd4f-656a8beec8e3
+2024-07-17 16:04:07 - Request to get task by project with id 34567775-9870-4fb8-bd4f-656a8beec8e3
+2024-07-17 16:04:42 - Request to get task by employee with id c179d86c-8c73-4f67-bd98-a07911187b70
+2024-07-17 16:24:58 - Request to get task by employee with id c179d86c-8c73-4f67-bd98-a07911187b70
+2024-07-17 16:25:30 - Request to get task by project with id 34567775-9870-4fb8-bd4f-656a8beec8e3
+2024-07-17 16:25:57 - Request to get all tasks
+2024-07-17 16:27:56 - Request to get task by employee with id c179d86c-8c73-4f67-bd98-a07911187b70
+2024-07-17 16:28:31 - Request to get task by project with id 34567775-9870-4fb8-bd4f-656a8beec8e3
+2024-07-17 16:28:58 - Request to get task by employee with id c179d86c-8c73-4f67-bd98-a07911187b70
+2024-07-17 16:29:21 - Request to get a tasks with id 455503bb-8dff-4791-bb14-0cc37cd82f0f
